@@ -1,0 +1,45 @@
+# Local environments, caches, credentials, and experiment artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.pem
+*.key
+data/
+weights/
+runs/
+logs/
+third_party/*
+!third_party/README.md
+results/dets/
+*.pkl
+*.pt
+*.pth
+*.npz
+# LaTeX build intermediates and temporary inspection files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+paper/_*.png
+code/_upload_*.py
+code/_publish_*.py
+code/_prepare_upload.py
+upload_manifest.json
+# Historical figure versions and research scratch files
+figures/*previous*
+figures/*raster*
+figures/*third_layout*
+ref_figs/
+texts/
+all_fetched.csv
+latest*.csv
+screening.csv
+report.docx
+OUTPUTS.md
+progress.md

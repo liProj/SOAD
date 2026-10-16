@@ -1,0 +1,52 @@
+{
+ "clean": {
+  "level0": {
+   "mean": 0.491,
+   "std_all": 0.0171,
+   "std_within_image": 0.0143,
+   "min": 0.2981,
+   "max": 0.552
+  },
+  "level1": {
+   "mean": 0.5447,
+   "std_all": 0.0651,
+   "std_within_image": 0.0534,
+   "min": 0.4798,
+   "max": 0.9853
+  },
+  "level2": {
+   "mean": 0.4752,
+   "std_all": 0.0118,
+   "std_within_image": 0.0101,
+   "min": 0.4068,
+   "max": 0.6218
+  },
+  "batches": 25
+ },
+ "masked": {
+  "level0": {
+   "mean": 0.5053,
+   "std_all": 0.0158,
+   "std_within_image": 0.0151,
+   "min": 0.3021,
+   "max": 0.5755
+  },
+  "level1": {
+   "mean": 0.545,
+   "std_all": 0.0404,
+   "std_within_image": 0.0346,
+   "min": 0.4822,
+   "max": 0.9829
+  },
+  "level2": {
+   "mean": 0.4756,
+   "std_all": 0.0079,
+   "std_within_image": 0.0072,
+   "min": 0.4115,
+   "max": 0.6118
+  },
+  "batches": 25
+ },
+ "alpha": 0.5,
+ "fusion": "f * (1 + alpha * gate)"
+}

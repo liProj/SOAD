@@ -1,0 +1,7 @@
+path: data/tiles_flip
+train: val/images
+val: val/images
+test: test/images
+channels: 3
+nc: 2
+names: [fruit_tree, fruit_ground]

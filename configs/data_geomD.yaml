@@ -1,0 +1,8 @@
+path: data/citrus
+train: train/images
+val: val/images
+test: test/images
+channels: 3
+geom_mode: D
+nc: 2
+names: [fruit_tree, fruit_ground]

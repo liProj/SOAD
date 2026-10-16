@@ -1,0 +1,8 @@
+{
+ "target_median_v": 0.5490196078431373,
+ "train_median_v": 0.5490196078431373,
+ "val_median_v": 0.5058823529411764,
+ "test_median_v": 0.5450980392156862,
+ "val_gamma_median": 0.8799179965390381,
+ "test_gamma_median": 0.988186202702684
+}

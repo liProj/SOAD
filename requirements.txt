@@ -1,0 +1,15 @@
+# Direct dependencies inferred from the scripts; not an exact training lockfile.
+# Install a CUDA-compatible PyTorch build and the required detector fork separately.
+numpy
+scipy
+pandas
+opencv-python
+Pillow
+PyYAML
+matplotlib
+PyMuPDF
+scikit-learn
+lightgbm
+huggingface-hub
+requests
+python-docx

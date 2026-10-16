@@ -1,0 +1,80 @@
+{
+ "train": {
+  "images": 1500,
+  "labels": 1500,
+  "img_without_label": 0,
+  "label_without_img": 0,
+  "depth": 1500,
+  "geom/B": 1500,
+  "geom/N": 1500,
+  "geom/D": 1500,
+  "instances": 77766,
+  "fruit_tree": 71382,
+  "fruit_ground": 6384,
+  "empty_label_files": 16,
+  "duplicate_label_rows": 1,
+  "boxes_outside_image": 0,
+  "files_with_negative_value": 8,
+  "instances_in_those_files": 398,
+  "per_image_mean": 51.8,
+  "per_image_max": 122,
+  "median_box_area_frac": 0.000194049702,
+  "sizes": {
+   "1920x1200": 50
+  }
+ },
+ "val": {
+  "images": 200,
+  "labels": 200,
+  "img_without_label": 0,
+  "label_without_img": 0,
+  "depth": 200,
+  "geom/B": 200,
+  "geom/N": 200,
+  "geom/D": 200,
+  "instances": 8705,
+  "fruit_tree": 8041,
+  "fruit_ground": 664,
+  "empty_label_files": 3,
+  "duplicate_label_rows": 0,
+  "boxes_outside_image": 0,
+  "files_with_negative_value": 0,
+  "instances_in_those_files": 0,
+  "per_image_mean": 43.5,
+  "per_image_max": 87,
+  "median_box_area_frac": 0.00021297022,
+  "sizes": {
+   "1920x1200": 50
+  }
+ },
+ "test": {
+  "images": 500,
+  "labels": 500,
+  "img_without_label": 0,
+  "label_without_img": 0,
+  "depth": 500,
+  "geom/B": 500,
+  "geom/N": 500,
+  "geom/D": 500,
+  "instances": 16248,
+  "fruit_tree": 14780,
+  "fruit_ground": 1468,
+  "empty_label_files": 4,
+  "duplicate_label_rows": 0,
+  "boxes_outside_image": 0,
+  "files_with_negative_value": 1,
+  "instances_in_those_files": 49,
+  "per_image_mean": 32.5,
+  "per_image_max": 108,
+  "median_box_area_frac": 0.0001848441575,
+  "sizes": {
+   "1920x1200": 50
+  }
+ },
+ "total": {
+  "images": 2200,
+  "instances": 102719,
+  "duplicate_image_groups": 0,
+  "cross_split_duplicates": 0
+ }
+}

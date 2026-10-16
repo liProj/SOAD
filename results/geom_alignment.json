@@ -1,0 +1,58 @@
+[
+ {
+  "setting": "no augmentation (validation pipeline)",
+  "samples": 40,
+  "geom_absent": 0,
+  "mean_corr": 0.905898831552495,
+  "min_corr": 0.8481116992314459,
+  "frac_above_0p8": 1.0
+ },
+ {
+  "setting": "default training augmentation",
+  "samples": 40,
+  "geom_absent": 40,
+  "mean_corr": null,
+  "min_corr": null,
+  "frac_above_0p8": null
+ },
+ {
+  "setting": "training augmentation, mosaic off",
+  "samples": 40,
+  "geom_absent": 0,
+  "mean_corr": 0.12978607398206304,
+  "min_corr": -0.18651784071769664,
+  "frac_above_0p8": 0.0
+ },
+ {
+  "setting": "mosaic, flip, scale, translate all off",
+  "samples": 40,
+  "geom_absent": 0,
+  "mean_corr": 0.8967304744076173,
+  "min_corr": 0.83024444362274,
+  "frac_above_0p8": 1.0
+ },
+ {
+  "setting": "ALIGNED loader: no augmentation",
+  "samples": 40,
+  "geom_absent": 0,
+  "mean_corr": 0.9866723948407495,
+  "min_corr": 0.9767716543907727,
+  "frac_above_0p8": 1.0
+ },
+ {
+  "setting": "ALIGNED loader: default training augmentation (mosaic on)",
+  "samples": 40,
+  "geom_absent": 0,
+  "mean_corr": 0.9664353961114059,
+  "min_corr": 0.7519831881128389,
+  "frac_above_0p8": 0.975
+ },
+ {
+  "setting": "ALIGNED loader: mosaic off",
+  "samples": 40,
+  "geom_absent": 0,
+  "mean_corr": 0.6328039072922755,
+  "min_corr": -0.12841745931461285,
+  "frac_above_0p8": 0.5
+ }
+]

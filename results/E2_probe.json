@@ -1,0 +1,13 @@
+{
+ "checkpoint": "E2_concat_s0 epoch 13 (public code as shipped, mosaic on)",
+ "val": {
+  "with_geometry": {
+   "map50": 6.355687074350689e-05,
+   "map5095": 1.0301811887083732e-05
+  },
+  "without_geometry": {
+   "map50": 0.7188266832817153,
+   "map5095": 0.41391180863131494
+  }
+ }
+}
